@@ -1,0 +1,27 @@
+<view class="container">
+    <view class="app-title">合作小程序</view>
+    <view class="project-list">
+      <!-- 项目名称 -->
+      <view class="project-item">创建人</view>
+      <view class="project-item">删除项目</view>
+      <view class="project-item">项目内容</view>
+      <view class="project-item">配备人员</view>
+      <!-- 操作选项 -->
+      <view class="operation-item">修改项目</view>
+      <view class="operation-item">删除项目</view>
+      <view class="operation-item">修改项目</view>
+      <view class="operation-item">创建人</view>
+      <view class="operation-item">删除项目</view>
+      <view class="operation-item">项目内容</view>
+      <view class="operation-item">配备人员</view>
+    </view>
+    <view class="bottom-bar">
+      <button bindtap="navigateToPage8">我加入的</button>
+      <button bindtap="navigateToPage6">我创建的</button> <!-- 新增按钮 -->
+    </view>
+    <button class="back-btn" bindtap="goBack">返回上一页</button>
+    <view class="bottom-icons">
+      <image src="images/battery-icon.png" />
+      <image src="images/signal-icon.png" />
+    </view>
+</view>
