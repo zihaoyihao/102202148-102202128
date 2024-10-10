@@ -1,0 +1,16 @@
+<!-- pages/page2/page2.wxml -->
+<view class="container">
+    <view class="app-name">合作小程序</view>
+    <view class="identity-prompt">选择你的注册身份</view>
+    <view class="identity-option-container">
+        <view class="identity-option-box student-box" bindtap="navigateToStudentPage">
+            <view class="identity-option">学生</view>
+        </view>
+        <view class="identity-option-box teacher-box" bindtap="navigateToTeacherPage">
+            <view class="identity-option">教师</view>
+        </view>
+    </view>
+    <view class="back-button" bindtap="goBack">
+        <text>返回上一页</text>
+    </view>
+</view>
