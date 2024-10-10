@@ -1,0 +1,62 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.xingming{
+  text-align: left;
+  font-size: 15px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column; /* 修改为垂直排列 */
+  align-items: center; /* 水平居中 */
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 30%;
+  padding: 10px;
+  background-color:darkgray;
+  color:white;
+  border: none;
+  border-radius: 4px;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px 0;
+}
+
+.nav-item {
+  width: 33.33%;
+  text-align: center;
+}
+.back-btn {
+  color: #1AAD19;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.input-label {
+  margin-top: 10px;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 1px;
+  margin-top: 5px;
+  border-radius: 4px; /* 圆角边框 */
+}
