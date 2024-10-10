@@ -1,0 +1,32 @@
+<view class="container">
+    <view class="app-title">合作小程序</view>
+    <view class="info-form">
+        <text>请填写个人信息：</text>
+        <view class="input-section">
+            <text>姓名：</text>
+            <input type="text" placeholder="请输入您的姓名"/>
+        </view>
+        <view class="input-section">
+            <text>学号：</text>
+            <input type="text" placeholder="请输入您的学号"/>
+        </view>
+        <view class="input-section">
+            <text>学院：</text>
+            <input type="text" placeholder="请输入您的学院"/>
+        </view>
+        <view class="input-section">
+            <text>专业：</text>
+            <input type="text" placeholder="请输入您的专业"/>
+        </view>
+        <view class="input-section">
+            <text>手机号：</text>
+            <input type="number" placeholder="请输入您的手机号"/>
+        </view>
+        <view class="input-section">
+            <text>自我介绍：</text>
+            <textarea placeholder="请在此输入您的自我介绍"></textarea>
+        </view>
+        <button class="submit-btn" bindtap="showModal">保存个人信息</button>
+    </view>
+    <button class="back-btn" bindtap="goBack">返回上一页</button>
+</view>
