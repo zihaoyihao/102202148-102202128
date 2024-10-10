@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="title">合作小程序</view>
+  <button class="xingming-button" bindtap="goToPersonalInfo">个人信息</button>
+  <view class="button" bindtap="logout">退出登录</view>
+  <view class="button-group">
+    <button class="button" bindtap="createProject">创建项目</button>
+    <button class="button" bindtap="joinProject">加入项目</button>
+    <button class="button" bindtap="myProjects">我的项目</button>
+  </view>
+  <view class="bottom-nav">
+    <navigator url="/pages/11/11" class="nav-item">消息</navigator>
+    <navigator url="/pages/10/10" class="nav-item">社区</navigator>
+    <navigator url="/pages/6/6" class="nav-item">项目</navigator>
+  </view>
+    <button class="back-btn" bindtap="goBack">返回上一页</button>
+</view>
