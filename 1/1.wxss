@@ -1,0 +1,75 @@
+/* pages/1/1.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.login-section {
+  width: 100%;
+  max-width: 300px; /* 限制最大宽度 */
+}
+
+.login-title {
+  font-size: 28px;
+  color:black;
+  margin-bottom: 10px;
+}
+
+.login-description {
+  font-size: 20px;
+  color: #666; /* 深灰色文字 */
+  margin-bottom: 20px;
+}
+
+.input-label {
+  margin-top: 10px;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 1px;
+  margin-top: 5px;
+  border-radius: 4px; /* 圆角边框 */
+}
+
+.checkbox-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.login-btn {
+  width: 100%;
+  background-color: #1AAD19;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.register-link {
+  margin-top: 20px;
+  color: #1AAD19;
+}
+
+.checkbox {
+    display: none; /* 隐藏复选框 */
+}
+
+.checkbox-text {
+    display: inline-block;
+    padding-left: 0px; /* 为文本添加左边距，以匹配复选框的位置 */
+    line-height: 16px; /* 与复选框高度对齐 */
+}
+
