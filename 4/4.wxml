@@ -1,0 +1,18 @@
+<!-- pages/teacherRegister/teacherRegister.wxml -->
+<view class="container">
+    <view class="title">合作小程序</view>
+    <view class="subtitle">教师</view>
+    <view class="input-label">教师编号：</view>
+    <input class="input" type="number" placeholder="请输入" />
+    <view class="input-label">手机号：</view>
+    <input class="input" type="number" placeholder="请输入" />
+    <view class="input-label">验证码：</view>
+    <input class="input" type="number" placeholder="请输入" />
+      <button bindtap="showVerifyCodeModal">发送验证码</button>
+    <view class="input-label">密码：</view>
+    <input class="input" type="password" placeholder="请输入" />
+    <view class="input-label">再次输入密码：</view>
+    <input class="input" type="password" placeholder="请输入" />
+    <button class="register-btn" bindtap="showRegisterModal">注册</button>
+    <button class="back-btn" bindtap="goBack">返回上一页</button>
+</view>
