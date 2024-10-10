@@ -1,0 +1,22 @@
+<view class="container">
+    <view class="app-title">合作小程序</view>
+    <view class="input-section">
+        <text>项目名称：</text>
+        <input type="text" placeholder="请输入项目名称"/>
+    </view>
+    <view class="input-section">
+        <text>创建人：</text>
+        <input type="text" placeholder="请输入创建人"/>
+    </view>
+    <view class="input-section">
+        <text>项目内容：</text>
+        <input type="text" placeholder="请输入项目内容"/>
+    </view>
+    <view class="button-group">
+        <button class="join-btn" bindtap="showSuccessModal">申请加入</button>
+        <button class="join-btn" bindtap="showSuccessModal">申请加入</button>
+        <button class="join-btn" bindtap="showSuccessModal">申请加入</button>
+    </view>
+    <button class="match-btn" bindtap="showWaitingModal">匹配项目</button>
+    <button class="back-btn" bindtap="goBack">返回上一页</button>
+</view>
